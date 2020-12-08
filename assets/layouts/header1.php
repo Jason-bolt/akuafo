@@ -46,7 +46,7 @@
         <i class="icofont-phone"></i> +1 5589 55488 55
       </div>
       <div class="social-links float-left">
-        <h1 class="text-light"><a href="index.html"><span style="color: green;">AkuafoLink</span></a></h1>
+        <h1 class="text-light"><a href="index.php"><span style="color: green;">AkuafoLink</span></a></h1>
       </div>
     </div>
   </section>
@@ -178,6 +178,26 @@
             <li><a href="contact.php">Contact</a></li>
             <li class="active"><a href="faq.php">FAQ</a></li>
             <li><a href="login.php" class="btn">Login</a></li>
+            <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
+          <?php
+            }elseif ($page == 'login') {
+          ?>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="market.php">Market</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li class="active"><a href="login.php" class="btn">Login</a></li>
+            <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
+          <?php
+            }elseif ($page == 'register') {
+          ?>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="market.php">Market</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li class="active"><a href="login.php" class="btn">Login</a></li>
             <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
           <?php
             }
