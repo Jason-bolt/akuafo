@@ -96,24 +96,13 @@
               </div>
 
               <div class="form-group col-md-6">
-                <label>Available</label>
-                <input type="text" class="form-control" id="available" name="available" placeholder="e.g. Now, In a week, in two months,...">
+                <label>Time available (in weeks)</label>
+                <input type="number" class="form-control" id="available" name="available">
               </div>
 
               <div class="form-group col-md-6">
                 <label>Quantity</label>
-                <select class="form-control" name="quantity">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                </select>
+                <input type="text" class="form-control" name="quantity" placeholder="e.g. 10 sacs, 20 pieces, ...">
               </div>
 
               <div class="form-group col-md-6">
