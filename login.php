@@ -44,18 +44,19 @@
               AkuafoLink Login
             </div>
             <div class="card-body px-5">
-              <form class="form">
+              <form action="#" class="form" onsubmit="return validate_form()">
+                <p class="text-center" style="color: red;" id="info"></p>
                 <div class="row">
                   <div class="form-group">
                     <label>Email</label>
-                    <input class="form-control" type="email" name="email" placeholder="example@email.com">
+                    <input class="form-control" type="email" name="email" placeholder="example@email.com" required>
                   </div>
 
                   &emsp;
 
                   <div class="form-group">
                     <label>Password</label>
-                    <input class="form-control" type="password" name="password">
+                    <input class="form-control" id="password" type="password" name="password" required>
                   </div>
                 </div>
                 <input type="submit" name="login_submit" value="Login" class="btn" style="background-color: green; color: #fff;">
@@ -70,3 +71,24 @@
     <!-- /.container -->
 
   </main><!-- End #main -->
+
+</body>
+</html>
+
+  <script type="text/javascript">
+    
+    function validate_form(){
+      var password = document.getElementById('password').value;
+
+      if (password.trim() == '') {
+        var info = document.getElementById('info');
+        info.innerHTML = "Password field can not be empty!";
+        alert('Password field cannot be empty!');
+        return false
+      }
+
+      return true;
+    
+    }
+
+  </script>

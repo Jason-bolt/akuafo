@@ -44,38 +44,42 @@
               AkuafoLink Registration
             </div>
             <div class="card-body px-5">
-              <form class="form">
+              <form action="#" class="form" method="POST" onsubmit="return validate_form()">
+                
+                <!-- Info location -->
+                <p class="text-center" style="color: red;" id="info"></p>
+                
                 <div class="row">
                   <div class="form-group">
                     <label>First Name *</label>
-                    <input class="form-control" type="text" name="first_name" placeholder="John">
+                    <input class="form-control" type="text" id="first_name" name="first_name" placeholder="John" required>
                   </div>
 
                   &emsp;
 
                   <div class="form-group">
                     <label>Last Name *</label>
-                    <input class="form-control" type="text" name="last_name" placeholder="last_name">
+                    <input class="form-control" type="text" id="last_name" name="last_name" placeholder="Doe" required>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="form-group">
                     <label>Email *</label>
-                    <input class="form-control" type="email" name="email" placeholder="example@email.com">
+                    <input class="form-control" type="email" id="email" name="email" placeholder="example@email.com" required>
                   </div>
 
                   &emsp;
 
                   <div class="form-group">
                     <label>Password *</label>
-                    <input class="form-control" type="text" name="last_name" placeholder="last_name">
+                    <input class="form-control" type="password" id="password" name="password" required>
                   </div>
                 </div>
 
                   <div class="form-group">
                     <label>Actor *</label>
-                    <select class="form-control" name="actor">
+                    <select class="form-control" id="actor" name="actor" required>
                       <option value="none" selected="selected" disabled>Which actor are you?</option>
                       <option value="farmer">Farmer</option>
                       <option value="input_supplier">Input Supplier</option>
@@ -96,3 +100,31 @@
     <!-- /.container -->
 
   </main><!-- End #main -->
+
+</body>
+</html>
+
+<script type="text/javascript">
+  
+  function validate_form(){
+    var first_name = document.getElementById('first_name').value;
+    var last_name = document.getElementById('last_name').value;
+    var password = document.getElementById('password').value;
+    var actor = document.getElementById('actor').value;
+
+
+    // If the fields are empty
+    if (first_name.trim() == '' || last_name.trim() == '' || password.trim() == '') {
+      // To display error messages
+      var info = document.getElementById('info');
+      info.innerHTML = "All fields are required!";
+      alert("All fields are required!");
+
+      return false;
+    }
+
+    return true;
+
+  }
+
+</script>
