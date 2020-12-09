@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,12 +31,27 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Mamba - v2.4.1
-  * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    .badge {
+      padding-left: 9px;
+      padding-right: 9px;
+      -webkit-border-radius: 9px;
+      -moz-border-radius: 9px;
+      border-radius: 9px;
+    }
+    #lblCartCount {
+      font-size: 12px;
+      background: #ff0000;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+    }
+  </style>
+
 </head>
 
 <body>
@@ -46,7 +64,7 @@
         <i class="icofont-phone"></i> +1 5589 55488 55
       </div>
       <div class="social-links float-left">
-        <h1 class="text-light"><a href="index.html"><span style="color: green;">AkuafoLink</span></a></h1>
+        <h1 class="text-light"><a href="index.php"><span style="color: green;">AkuafoLink</span></a></h1>
       </div>
     </div>
   </section>
@@ -76,8 +94,6 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Trade in farm inputs.</h2>
-                <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
               </div>
             </div>
           </div>
@@ -87,8 +103,6 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Trade in farm produce.</h2>
-               <!--  <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
               </div>
             </div>
           </div>
@@ -107,6 +121,26 @@
       </div>
     </div>
   </section><!-- End Hero -->
+
+  <!-- Cart -->
+    <div class="container">
+      <div class="float-right my-2 container">
+        <a href="#">
+          Shopping cart <i class="fa fa-shopping-cart"></i>
+          <span class='badge badge-warning' id='lblCartCount'>
+            <?php
+              if (!isset($_SESSION['cart_count'])) {
+                echo 0;
+               }else{
+                echo $_SESSION['cart_count'];
+               }
+            ?>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div style="clear: both;"></div>
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -137,6 +171,7 @@
             <li><a href="market.php">Market</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
+            <li><a href="blogs.php">Blogs</a></li>
             <li><a href="login.php" class="btn">Login</a></li>
             <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
           <?php
@@ -147,6 +182,7 @@
             <li><a href="market.php">Market</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
+            <li><a href="blogs.php">Blogs</a></li>
             <li><a href="login.php" class="btn">Login</a></li>
             <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
           <?php
@@ -157,6 +193,7 @@
             <li class="active"><a href="market.php">Market</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
+            <li><a href="blogs.php">Blogs</a></li>
             <li><a href="login.php" class="btn">Login</a></li>
             <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
           <?php
@@ -167,6 +204,7 @@
             <li><a href="market.php">Market</a></li>
             <li class="active"><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
+            <li><a href="blogs.php">Blogs</a></li>
             <li><a href="login.php" class="btn">Login</a></li>
             <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
           <?php
@@ -177,7 +215,41 @@
             <li><a href="market.php">Market</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li class="active"><a href="faq.php">FAQ</a></li>
+            <li><a href="blogs.php">Blogs</a></li>
             <li><a href="login.php" class="btn">Login</a></li>
+            <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
+          <?php
+            }elseif ($page == 'blogs') {
+          ?>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="market.php">Market</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li class="active"><a href="blogs.php">Blogs</a></li>
+            <li><a href="login.php" class="btn">Login</a></li>
+            <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
+          <?php
+            }elseif ($page == 'login') {
+          ?>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="market.php">Market</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li><a href="blogs.php">Blogs</a></li>
+            <li class="active"><a href="login.php" class="btn">Login</a></li>
+            <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
+          <?php
+            }elseif ($page == 'register') {
+          ?>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="market.php">Market</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li><a href="blogs.php">Blogs</a></li>
+            <li class="active"><a href="login.php" class="btn">Login</a></li>
             <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
           <?php
             }

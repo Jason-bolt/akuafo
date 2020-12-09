@@ -122,12 +122,6 @@
           </div>
           <button style="background-color: green; color: white;" type="submit" class="btn mb-2">Search</button>
         </form>
-        <!-- <form action="" method="post" class="form-group">
-          <input type="email" name="email" class="form-control"><input type="submit" value="Subscribe">
-        </form> -->
-        <!-- <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu float-left d-none d-lg-block">
@@ -141,7 +135,7 @@
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="profile.php">Profile</a></li>
+            <li><a href="blogger_profile.php">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'about') {
@@ -152,7 +146,7 @@
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="profile.php">Profile</a></li>
+            <li><a href="blogger_profile.php">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'market') {
@@ -162,7 +156,7 @@
             <li class="active"><a href="market.php">Market</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
-            <li><a href="profile.php">Profile</a></li>
+            <li><a href="blogger_profile.php">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'contact') {
@@ -173,7 +167,7 @@
             <li class="active"><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="profile.php">Profile</a></li>
+            <li><a href="blogger_profile.php">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'faq') {
@@ -184,7 +178,7 @@
             <li><a href="contact.php">Contact</a></li>
             <li class="active"><a href="faq.php">FAQ</a></li>
             <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="profile.php">Profile</a></li>
+            <li><a href="blogger_profile.php">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'blogs') {
@@ -195,7 +189,7 @@
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
             <li class="active"><a href="blogs.php">Blogs</a></li>
-            <li><a href="profile.php">Profile</a></li>
+            <li><a href="blogger_profile.php">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'profile') {
@@ -206,7 +200,7 @@
             <li><a href="contact.php">Contact</a></li>
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="blogs.php">Blogs</a></li>
-            <li class="active"><a href="profile.php">Profile</a></li>
+            <li class="active"><a href="blogger_profile.php">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }

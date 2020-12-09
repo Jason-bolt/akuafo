@@ -30,6 +30,27 @@
         <p>example@email.com</p>
       </div>
 
+      <div class="container row">
+        <h5>City:</h5>
+        &nbsp;
+        &nbsp;
+        <p>Tema</p>
+      </div>
+
+      <div class="container row">
+        <h5>Phone number:</h5>
+        &nbsp;
+        &nbsp;
+        <p>+2334785963154</p>
+      </div>
+
+      <div class="container row">
+        <h5>Residential address:</h5>
+        &nbsp;
+        &nbsp;
+        <p>Gt-322-232</p>
+      </div>
+
       <!-- Edit Profile button -->
       <button class="btn" id="edit_profile" style="background-color: green; color: #fff;">Edit Profile</button>
 
@@ -42,18 +63,34 @@
 
               <div class="form-group col-md-6">
                 <label>First name</label>
-                <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First name">
+                <input type="text" class="form-control" id="first_name" name="first_name" value="John">
               </div>
               
               <div class="form-group col-md-6">
                 <label>Last name</label>
-                <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last name">
+                <input type="text" class="form-control" id="last_name" name="last_name" value="Doe">
               </div>
               
-              <div class="form-group col-md-12">
+              <div class="form-group col-md-6">
                 <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                <input type="email" class="form-control" id="email" name="email" value="example@email.com">
               </div>
+
+              <div class="form-group col-md-6">
+                <label>City</label>
+                <input type="text" class="form-control" id="city" name="city" value="Tema">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label>Phone number</label>
+                <input type="tel" class="form-control" id="phone_number" name="phone_number" value="+2334785963154">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label>Residential address</label>
+                <input type="text" class="form-control" id="address" name="address" value="Gt-322-232">
+              </div>
+
               <!-- Submit button -->
               <div class="form-group col-md-12">
                 <input type="submit" class="btn" style="background-color: green; color: #fff; width: 100%;" id="edit_submit" name="edit_submit" value="Save">
@@ -107,7 +144,7 @@
 
               <div class="form-group col-md-6">
                 <label>Product description</label>
-                <textarea class="form-control" id="description"></textarea>
+                <textarea class="form-control" id="description" name="description"></textarea>
               </div>
               
               <!-- Submit button -->

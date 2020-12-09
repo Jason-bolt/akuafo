@@ -55,7 +55,13 @@
             &nbsp;
 
             <input type="submit" name="submit_buy" class="btn py-1" style="background-color: green; color: #fff;" value="Buy">
+
+            &nbsp;
+            
+            <a href="#" id="add_to_cart" name="add_to_cart" class="btn py-1" style="background-color: green; color: #fff;">Add to cart</a>
+
           </form>
+      
         </div>
 
       </div>
@@ -67,3 +73,11 @@
 <?php
   include('assets/layouts/footer.php');
 ?>
+
+<script type="text/javascript">
+  document.getElementById('add_to_cart').addEventListener('click', function(){
+    <?php
+      $_SESSION['cart_count'] = (int)$_SESSION['cart_count'] + 1;
+    ?>
+  });
+</script>

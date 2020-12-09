@@ -1,6 +1,6 @@
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" style="background-color: #228B22;">
+  <footer id="footer" style="background-color: #228B22;" class="mt-5">
   <!--   <div class="footer-top mt-5">
       <div class="container">
         <div class="row">
@@ -84,6 +84,18 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "5fd02f18c3c2600007dfd064";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script>
+<!-- End of ChatBot code -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
