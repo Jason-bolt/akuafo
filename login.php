@@ -68,11 +68,11 @@
       <nav class="nav-menu float-left d-none d-lg-block">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="market.php">Market</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li><a href="blogs.php">Blogs</a></li>
+            <li><a href="about.php#container">About Us</a></li>
+            <li><a href="market.php#container">Market</a></li>
+            <li><a href="contact.php#container">Contact</a></li>
+            <li><a href="faq.php#container">FAQ</a></li>
+            <li><a href="blogs.php#container">Blogs</a></li>
             <li class="active"><a href="login.php" class="btn">Login</a></li>
             <li style="background-color: green;"><a href="register.php" class="btn text-light">Register</a></li>
         </ul>
