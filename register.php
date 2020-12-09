@@ -113,6 +113,13 @@
                 </div>
 
                 <div class="row">
+                  <div class="form-group col">
+                    <label>Username *</label>
+                    <input class="form-control" type="text" id="username" name="username" placeholder="Username" required>
+                  </div>
+                </div>
+
+                <div class="row">
                   <div class="form-group">
                     <label>Email *</label>
                     <input class="form-control" type="email" id="email" name="email" placeholder="example@email.com" required>
@@ -184,6 +191,7 @@
   function validate_form(){
     var first_name = document.getElementById('first_name').value;
     var last_name = document.getElementById('last_name').value;
+    var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
     var actor = document.getElementById('actor').value;
     var city = document.getElementById('city').value;
@@ -192,7 +200,7 @@
 
 
     // If the fields are empty
-    if (first_name.trim() == '' || last_name.trim() == '' || password.trim() == '' || city.trim() == '' || phone_number.trim() == '' || address == '') {
+    if (username.trim() == '' || first_name.trim() == '' || last_name.trim() == '' || password.trim() == '' || city.trim() == '' || phone_number.trim() == '' || address == '') {
       // To display error messages
       var info = document.getElementById('info');
       info.innerHTML = "All fields are required!";

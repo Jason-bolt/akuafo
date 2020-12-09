@@ -97,8 +97,8 @@
                 <p class="text-center" style="color: red;" id="info"></p>
                 <div class="row">
                   <div class="form-group">
-                    <label>Email</label>
-                    <input class="form-control" type="email" name="email" placeholder="example@email.com" required>
+                    <label>Username</label>
+                    <input class="form-control" type="text" name="username" id="username" placeholder="Username" required>
                   </div>
 
                   &emsp;
@@ -132,12 +132,13 @@
   <script type="text/javascript">
     
     function validate_form(){
+      var username = document.getElementById('username').value;
       var password = document.getElementById('password').value;
 
-      if (password.trim() == '') {
+      if (username.trim() == '' || password.trim() == '') {
         var info = document.getElementById('info');
-        info.innerHTML = "Password field can not be empty!";
-        alert('Password field cannot be empty!');
+        info.innerHTML = "All fields must be filled!";
+        alert('All fields must be filled!');
         return false
       }
 

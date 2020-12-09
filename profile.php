@@ -15,12 +15,19 @@
 
     <div class="container">
 
-      <!-- Name and email of the Actor -->
+      <!-- Name and details of the Actor -->
       <div class="container row">
         <h5>Name:</h5>
         &nbsp;
         &nbsp;
         <p>John Doe</p>
+      </div>
+
+      <div class="container row">
+        <h5>Username:</h5>
+        &nbsp;
+        &nbsp;
+        <p>username</p>
       </div>
 
       <div class="container row">
@@ -69,6 +76,11 @@
               <div class="form-group col-md-6">
                 <label>Last name</label>
                 <input type="text" class="form-control" id="last_name" name="last_name" value="Doe">
+              </div>
+
+              <div class="form-group col-md-12">
+                <label>Username</label>
+                <input type="text" class="form-control" id="username" name="username" value="Username">
               </div>
               
               <div class="form-group col-md-6">
