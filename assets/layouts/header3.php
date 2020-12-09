@@ -130,77 +130,77 @@
             if ($page == 'home') {
           ?>
             <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="market.php">Market</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="blogger_profile.php">Profile</a></li>
+            <li><a href="about.php#container">About Us</a></li>
+            <li><a href="market.php#container">Market</a></li>
+            <li><a href="contact.php#container">Contact</a></li>
+            <li><a href="faq.php#container">FAQ</a></li>
+            <li><a href="blogs.php#container">Blogs</a></li>
+            <li><a href="blogger_profile.php#container">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'about') {
           ?>
             <li><a href="index.php">Home</a></li>
-            <li class="active"><a href="about.php">About Us</a></li>
-            <li><a href="market.php">Market</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="blogger_profile.php">Profile</a></li>
+            <li class="active"><a href="about.php#container">About Us</a></li>
+            <li><a href="market.php#container">Market</a></li>
+            <li><a href="contact.php#container">Contact</a></li>
+            <li><a href="faq.php#container">FAQ</a></li>
+            <li><a href="blogs.php#container">Blogs</a></li>
+            <li><a href="blogger_profile.php#container">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'market') {
           ?>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li class="active"><a href="market.php">Market</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li><a href="blogger_profile.php">Profile</a></li>
+            <li><a href="about.php#container">About Us</a></li>
+            <li class="active"><a href="market.php#container">Market</a></li>
+            <li><a href="contact.php#container">Contact</a></li>
+            <li><a href="faq.php#container">FAQ</a></li>
+            <li><a href="blogger_profile.php#container">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'contact') {
           ?>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="market.php">Market</a></li>
-            <li class="active"><a href="contact.php">Contact</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="blogger_profile.php">Profile</a></li>
+            <li><a href="about.php#container">About Us</a></li>
+            <li><a href="market.php#container">Market</a></li>
+            <li class="active"><a href="contact.php#container">Contact</a></li>
+            <li><a href="faq.php#container">FAQ</a></li>
+            <li><a href="blogs.php#container">Blogs</a></li>
+            <li><a href="blogger_profile.php#container">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'faq') {
           ?>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="market.php">Market</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li class="active"><a href="faq.php">FAQ</a></li>
-            <li><a href="blogs.php">Blogs</a></li>
-            <li><a href="blogger_profile.php">Profile</a></li>
+            <li><a href="about.php#container">About Us</a></li>
+            <li><a href="market.php#container">Market</a></li>
+            <li><a href="contact.php#container">Contact</a></li>
+            <li class="active"><a href="faq.php#container">FAQ</a></li>
+            <li><a href="blogs.php#container">Blogs</a></li>
+            <li><a href="blogger_profile.php#container">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'blogs') {
           ?>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="market.php">Market</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li class="active"><a href="blogs.php">Blogs</a></li>
-            <li><a href="blogger_profile.php">Profile</a></li>
+            <li><a href="about.php#container">About Us</a></li>
+            <li><a href="market.php#container">Market</a></li>
+            <li><a href="contact.php#container">Contact</a></li>
+            <li><a href="faq.php#container">FAQ</a></li>
+            <li class="active"><a href="blogs.php#container">Blogs</a></li>
+            <li><a href="blogger_profile.php#container">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }elseif ($page == 'profile') {
           ?>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="market.php">Market</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li><a href="blogs.php">Blogs</a></li>
-            <li class="active"><a href="blogger_profile.php">Profile</a></li>
+            <li><a href="about.php#container">About Us</a></li>
+            <li><a href="market.php#container">Market</a></li>
+            <li><a href="contact.php#container">Contact</a></li>
+            <li><a href="faq.php#container">FAQ</a></li>
+            <li><a href="blogs.php#container">Blogs</a></li>
+            <li class="active"><a href="blogger_profile.php#container">Profile</a></li>
             <li><a href="logout.php">Logout</a></li>
           <?php
             }

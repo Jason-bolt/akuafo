@@ -5,7 +5,7 @@
 
   <main id="main">
 
-    <div class="container">
+    <div class="container" id="container">
       <h1 class="text-center py-4">
         FAQs
       </h1>
@@ -16,6 +16,16 @@
 
       <h4>How do I join the platform?</h4>
       <p>This platform is a farmer based system, as such actors who can take part are farmers, input suppliers and all persons interested in purchasing raw produce. To join the platform click on the register button and fill the form.</p>
+
+      <br />
+
+      <h4>What do I benefit as a farmer?</h4>
+      <p>Farmers have the opportunity to showcase their produce to a wide range of potential buyers. This will give them a public image to boost their businesses and reduce post harvest loss.</p>
+
+      <br />
+
+      <h4>What do I benefit as an input supplier?</h4>
+      <p>Input suppliers have the opportunity to showcase their input products to a wide range of potential buyers and farmers. This will give them a public image to boost their businesses.</p>
 
     </div>
     <!-- /.container -->

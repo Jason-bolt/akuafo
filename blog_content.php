@@ -5,7 +5,7 @@
 
   <main id="main">
 
-    <div class="container">
+    <div class="container" id="container">
       <h1 class="py-4">
         Blog Heading
       </h1>
