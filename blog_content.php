@@ -1,5 +1,5 @@
 <?php
-  $page = 'blog';
+  $page = 'blogs';
   include('assets/layouts/header1.php');
 ?>
 
