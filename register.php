@@ -135,7 +135,7 @@
 
                 <div class="row">
                   <div class="form-group">
-                    <label>Actor *</label>
+                    <label>Category *</label>
                     <select class="form-control" id="actor" name="actor" required>
                       <option value="none" selected="selected" disabled>Which actor are you?</option>
                       <option value="farmer">Farmer</option>
@@ -156,15 +156,29 @@
 
                 <div class="row">
                   <div class="form-group">
-                    <label>Phone number *</label>
-                    <input class="form-control" type="tel" id="phone_number" name="phone_number" required>
+                    <label>Mobile *</label>
+                    <input class="form-control" type="tel" id="mobile" name="mobile" required>
                   </div>
 
                   &emsp;
 
                   <div class="form-group">
+                    <label>Telephone *</label>
+                    <input class="form-control" type="tel" id="telephone" name="telephone" required>
+                  </div>
+                </div>
+
+                <div class="row">        
+                  <div class="form-group">
                     <label>Residential address *</label>
-                    <input class="form-control" type="text" id="address" name="address" required>
+                    <input class="form-control" type="text" id="raddress" name="raddress" required>
+                  </div>
+
+                  &emsp;
+
+                  <div class="form-group">
+                    <label>Digital Address *</label>
+                    <input class="form-control" type="tel" id="daddress" name="daddress" required>
                   </div>
                 </div>
 

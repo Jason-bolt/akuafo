@@ -90,7 +90,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/farm_input1.jpg');">
+          <div class="carousel-item" style="background-image: url('assets/img/farm_input_0.3.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Trade in farm inputs.</h2>

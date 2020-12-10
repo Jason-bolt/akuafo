@@ -30,6 +30,7 @@
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
               <p class="card-text"><strong>Time available:</strong> Now</p>
               <p class="card-text"><strong>Quantity:</strong> 10 sacs</p>
+              <p class="card-text"><strong>Amount per unit:</strong> $10.00</p>
               <!-- <p class="card-text text-center">Farm produce</p> -->
             </div>
           </div>

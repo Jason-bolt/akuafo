@@ -39,14 +39,18 @@
                 <p class="card-text"><strong>Product description:</strong> 
                   <textarea class="form-control" name="description"></textarea>
                 </p>
-                <p class="card-text"><strong>Time available: </strong>(in weeks) <input class="form-control" value="10" type="number" name="available"></p>
+                <p class="card-text"><strong>Time available: </strong>(in weeks) <input class="form-control" value="10" type="number" min="0" name="available"></p>
                 <p class="card-text"><strong>Quantity:</strong> <input class="form-control" placeholder="e.g. 10 sacs, 20 pieces, ..." type="text" name="quantity"></p>
+                <p class="card-text"><strong>Amount per unit:</strong> <input class="form-control" type="number" step="0.01" min="0" name="quantity"></p>
                 <!-- <p class="card-text text-center">Farm produce</p> -->
                 <input type="submit" class="btn btn-success" name="edit_profile_submit" value="Save">
               </div>
             </form>    
           </div>
         </div>
+      </div>
+
+      <a href="profile.php" class="btn btn-success">Back to profile</a>
 
       <!-- /.row -->
     <!-- /.container -->

@@ -45,7 +45,14 @@
       </div>
 
       <div class="container row">
-        <h5>Phone number:</h5>
+        <h5>Mobile:</h5>
+        &nbsp;
+        &nbsp;
+        <p>+2334785963154</p>
+      </div>
+
+      <div class="container row">
+        <h5>Telephone:</h5>
         &nbsp;
         &nbsp;
         <p>+2334785963154</p>
@@ -53,6 +60,13 @@
 
       <div class="container row">
         <h5>Residential address:</h5>
+        &nbsp;
+        &nbsp;
+        <p>Something</p>
+      </div>
+
+      <div class="container row">
+        <h5>Digital address:</h5>
         &nbsp;
         &nbsp;
         <p>Gt-322-232</p>
@@ -94,13 +108,23 @@
               </div>
 
               <div class="form-group col-md-6">
-                <label>Phone number</label>
-                <input type="tel" class="form-control" id="phone_number" name="phone_number" value="+2334785963154">
+                <label>Mobile</label>
+                <input type="tel" class="form-control" id="mobile" name="mobile" value="+2334785963154">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label>Telephone</label>
+                <input type="tel" class="form-control" id="telephone" name="telephone" value="+2334785963154">
               </div>
 
               <div class="form-group col-md-6">
                 <label>Residential address</label>
-                <input type="text" class="form-control" id="address" name="address" value="Gt-322-232">
+                <input type="text" class="form-control" id="raddress" name="raddress" value="Something">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label>Digital address</label>
+                <input type="text" class="form-control" id="daddress" name="daddress" value="Gt-322-232">
               </div>
 
               <!-- Submit button -->
@@ -161,135 +185,199 @@
       <!-- ./End of hidden form -->
 
       <!-- Blogs -->
+      <div class="row my-5">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-10">
+            <div class="text-center my-2">
+              <h3><strong>Blog Heading</strong></h3>
+            </div>
+            <div class="card-body pt-0">
+              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+              <hr />
+              <small>Posted by: Name of blogger</small>
+              <br />
+              <small>09th December, 2020</small>
+            </div>
+            <div class="card-footer">
+              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
+              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-10">
+            <div class="text-center my-2">
+              <h3><strong>Blog Heading</strong></h3>
+            </div>
+            <div class="card-body pt-0">
+              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+              <hr />
+              <small>Posted by: Name of blogger</small>
+              <br />
+              <small>09th December, 2020</small>
+            </div>
+            <div class="card-footer">
+              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
+              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-10">
+            <div class="text-center my-2">
+              <h3><strong>Blog Heading</strong></h3>
+            </div>
+            <div class="card-body pt-0">
+              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+              <hr />
+              <small>Posted by: Name of blogger</small>
+              <br />
+              <small>09th December, 2020</small>
+            </div>
+            <div class="card-footer">
+              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
+              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-10">
+            <div class="text-center my-2">
+              <h3><strong>Blog Heading</strong></h3>
+            </div>
+            <div class="card-body pt-0">
+              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+              <hr />
+              <small>Posted by: Name of blogger</small>
+              <br />
+              <small>09th December, 2020</small>
+            </div>
+            <div class="card-footer">
+              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
+              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-10">
+            <div class="text-center my-2">
+              <h3><strong>Blog Heading</strong></h3>
+            </div>
+            <div class="card-body pt-0">
+              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+              <hr />
+              <small>Posted by: Name of blogger</small>
+              <br />
+              <small>09th December, 2020</small>
+            </div>
+            <div class="card-footer">
+              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
+              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-10">
+            <div class="text-center my-2">
+              <h3><strong>Blog Heading</strong></h3>
+            </div>
+            <div class="card-body pt-0">
+              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+              <hr />
+              <small>Posted by: Name of blogger</small>
+              <br />
+              <small>09th December, 2020</small>
+            </div>
+            <div class="card-footer">
+              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
+              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <hr />
+
+      <!-- Cart for every user -->
+      <div>
+        <h3>Cart</h3>
+
+        <div class="row">
+          
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card h-10">
+              <a href="#"><img class="card-img-top" src="assets/img/farm_produce_0.1.png" alt="Farm produce"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  Name of product
+                  <!-- <a href="#">Project One</a> -->
+                </h4>
+                <p class="card-text"><strong>Seller's name:</strong> John Doe</p>
+                <p class="card-text"><strong>Location:</strong> Accra</p>
+                <p class="card-text"><strong>Product description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                <p class="card-text"><strong>Time available:</strong> Now</p>
+                <p class="card-text"><strong>Quantity:</strong> 10 sacs</p>
+                <!-- <p class="card-text text-center">Farm produce</p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card h-10">
+              <a href="#"><img class="card-img-top" src="assets/img/farm_produce_0.1.png" alt="Farm produce"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  Name of product
+                  <!-- <a href="#">Project One</a> -->
+                </h4>
+                <p class="card-text"><strong>Seller's name:</strong> John Doe</p>
+                <p class="card-text"><strong>Location:</strong> Accra</p>
+                <p class="card-text"><strong>Product description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                <p class="card-text"><strong>Time available:</strong> Now</p>
+                <p class="card-text"><strong>Quantity:</strong> 10 sacs</p>
+                <!-- <p class="card-text text-center">Farm produce</p> -->
+              </div>
+            </div>
+          </div>  
+
+        </div>
+        <!-- /.row -->  
+      </div>
+      
+
+      <!-- Total amount and buy button -->
       <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="card h-10">
-            <div class="text-center my-2">
-              <h3><strong>Blog Heading</strong></h3>
-            </div>
-            <div class="card-body pt-0">
-              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
-              <hr />
-              <small>Posted by: Name of blogger</small>
-              <br />
-              <small>09th December, 2020</small>
-            </div>
-            <div class="card-footer">
-              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
-              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
-            </div>
-          </div>
+        <div class="col">
+          <p>Total amount: $100.00</p>
+          <a href="#" class="btn btn-success py-1">Buy</a>
         </div>
-
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="card h-10">
-            <div class="text-center my-2">
-              <h3><strong>Blog Heading</strong></h3>
-            </div>
-            <div class="card-body pt-0">
-              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
-              <hr />
-              <small>Posted by: Name of blogger</small>
-              <br />
-              <small>09th December, 2020</small>
-            </div>
-            <div class="card-footer">
-              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
-              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="card h-10">
-            <div class="text-center my-2">
-              <h3><strong>Blog Heading</strong></h3>
-            </div>
-            <div class="card-body pt-0">
-              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
-              <hr />
-              <small>Posted by: Name of blogger</small>
-              <br />
-              <small>09th December, 2020</small>
-            </div>
-            <div class="card-footer">
-              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
-              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="card h-10">
-            <div class="text-center my-2">
-              <h3><strong>Blog Heading</strong></h3>
-            </div>
-            <div class="card-body pt-0">
-              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
-              <hr />
-              <small>Posted by: Name of blogger</small>
-              <br />
-              <small>09th December, 2020</small>
-            </div>
-            <div class="card-footer">
-              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
-              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="card h-10">
-            <div class="text-center my-2">
-              <h3><strong>Blog Heading</strong></h3>
-            </div>
-            <div class="card-body pt-0">
-              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
-              <hr />
-              <small>Posted by: Name of blogger</small>
-              <br />
-              <small>09th December, 2020</small>
-            </div>
-            <div class="card-footer">
-              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
-              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="card h-10">
-            <div class="text-center my-2">
-              <h3><strong>Blog Heading</strong></h3>
-            </div>
-            <div class="card-body pt-0">
-              <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
-              <hr />
-              <small>Posted by: Name of blogger</small>
-              <br />
-              <small>09th December, 2020</small>
-            </div>
-            <div class="card-footer">
-              <a href="edit_blog.php" class="btn" style="background-color: green; color: #fff;">Edit</a>
-              <a href="#" class="btn btn-danger" onclick="return confirm('This blog will be deleted!')">Delete</a>
-            </div>
-          </div>
-        </div>
+      </div>
+      <!-- /.cart -->
 
     </div>
-      <!-- /.row -->
     <!-- /.container -->
 
   </main><!-- End #main -->
