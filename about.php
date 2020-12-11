@@ -1,6 +1,16 @@
 <?php
   $page = 'about';
+  // Header when no one has logged in
   include('assets/layouts/header1.php');
+
+  // Header when farmer or input supplier logs in
+  // include('assets/layouts/header2.php');
+
+  // Header when blogger logs in
+  // include('assets/layouts/header3.php');
+
+  // Header when regular user logs in
+  // include('assets/layouts/header4.php');
 ?>
 
   <main id="main">

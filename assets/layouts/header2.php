@@ -91,44 +91,10 @@
     </div>
   </section>
 
-    <!-- Cart -->
-    <div class="container">
-      <div class="float-right my-2 container">
-        <a href="#">
-          Shopping cart <i class="fa fa-shopping-cart"></i>
-          <span class='badge badge-warning' id='lblCartCount'>
-            <?php
-              if (!isset($_SESSION['cart_count'])) {
-                echo 0;
-               }else{
-                echo $_SESSION['cart_count'];
-               }
-            ?>
-          </span>
-        </a>
-      </div>
-    </div>
-
-    <div style="clear: both;"></div>
 
   <!-- ======= Header ======= -->
-  <header id="header">
+  <header id="header py-0">
     <div class="container">
-
-      <div class="logo float-right ml-0">
-        <form class="form-inline">
-          <div class="form-group mx-sm-3 mb-2">
-            <input type="text" class="form-control" id="search" placeholder="Search...">
-          </div>
-          <button style="background-color: green; color: white;" type="submit" class="btn mb-2">Search</button>
-        </form>
-        <!-- <form action="" method="post" class="form-group">
-          <input type="email" name="email" class="form-control"><input type="submit" value="Subscribe">
-        </form> -->
-        <!-- <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
 
       <nav class="nav-menu float-left d-none d-lg-block">
         <ul>
@@ -215,6 +181,101 @@
 
         </ul>
       </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('assets/img/farm_input.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Akuafolink</span></h2>
+                <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/farm_input_0.3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Trade in farm inputs.</h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/farm_produce.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Trade in farm produce.</h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+    <!-- Cart -->
+    <div class="container">
+      <div class="float-right my-2 container">
+        <a href="cart.php#container">
+          Shopping cart <i class="fa fa-shopping-cart"></i>
+          <span class='badge badge-warning' id='lblCartCount'>
+            <?php
+              if (!isset($_SESSION['cart_count'])) {
+                echo 0;
+               }else{
+                echo $_SESSION['cart_count'];
+               }
+            ?>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <div class="logo float-right ml-0">
+        <form class="form-inline">
+          <div class="form-group mx-sm-3 mb-2">
+            <input type="text" class="form-control" id="search" placeholder="Search...">
+          </div>
+          <button style="background-color: green; color: white;" type="submit" class="btn mb-2">Search</button>
+        </form>
+        <!-- <form action="" method="post" class="form-group">
+          <input type="email" name="email" class="form-control"><input type="submit" value="Subscribe">
+        </form> -->
+        <!-- <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
 
     </div>
   </header><!-- End Header -->

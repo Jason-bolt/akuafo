@@ -146,67 +146,7 @@
       <br />
       <!-- Horizontal line -->
       <hr />
-
-      <!-- Cart for every user -->
-      <div>
-        <h3>Cart</h3>
-
-        <div class="row">
-          
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="card h-10">
-              <a href="#"><img class="card-img-top" src="assets/img/farm_produce_0.1.png" alt="Farm produce"></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  Name of product
-                  <!-- <a href="#">Project One</a> -->
-                </h4>
-                <p class="card-text"><strong>Seller's name:</strong> John Doe</p>
-                <p class="card-text"><strong>Location:</strong> Accra</p>
-                <p class="card-text"><strong>Product description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                <p class="card-text"><strong>Time available:</strong> Now</p>
-                <p class="card-text"><strong>Quantity:</strong> 10 sacs</p>
-                <!-- <p class="card-text text-center">Farm produce</p> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="card h-10">
-              <a href="#"><img class="card-img-top" src="assets/img/farm_produce_0.1.png" alt="Farm produce"></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  Name of product
-                  <!-- <a href="#">Project One</a> -->
-                </h4>
-                <p class="card-text"><strong>Seller's name:</strong> John Doe</p>
-                <p class="card-text"><strong>Location:</strong> Accra</p>
-                <p class="card-text"><strong>Product description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                <p class="card-text"><strong>Time available:</strong> Now</p>
-                <p class="card-text"><strong>Quantity:</strong> 10 sacs</p>
-                <!-- <p class="card-text text-center">Farm produce</p> -->
-              </div>
-            </div>
-          </div>  
-
-        </div>
-        <!-- /.row -->  
-      </div>
       
-
-      <!-- Total amount and buy button -->
-      <div class="row">
-        <div class="col">
-          <p>Total amount: $100.00</p>
-          <a href="#" class="btn btn-success py-1">Buy</a>
-        </div>
-      </div>
-      <!-- /.cart -->
-
   </div>
     <!-- /.container -->
 
